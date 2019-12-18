@@ -42,3 +42,9 @@ MINUS
 <.
 [-]
 ]
+
+another - without borders
+https://www.microsoft.com/en-us/download/details.aspx?id=35460
+
+settings
+http://www.michurin.net/tools/synergy.html
