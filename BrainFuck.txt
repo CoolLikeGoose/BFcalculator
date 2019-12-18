@@ -48,3 +48,39 @@ https://www.microsoft.com/en-us/download/details.aspx?id=35460
 
 settings
 http://www.michurin.net/tools/synergy.html
+
+section: screens
+	DESKTOP-KOPUCV6:
+		halfDuplexCapsLock = false
+		halfDuplexNumLock = false
+		halfDuplexScrollLock = false
+		xtestIsXineramaUnaware = false
+		switchCorners = none 
+		switchCornerSize = 0
+	Maria-PC:
+		halfDuplexCapsLock = false
+		halfDuplexNumLock = false
+		halfDuplexScrollLock = false
+		xtestIsXineramaUnaware = false
+		switchCorners = none 
+		switchCornerSize = 0
+end
+
+section: aliases
+end
+
+section: links
+	DESKTOP-KOPUCV6:
+		right = Maria-PC
+	Maria-PC:
+		left = DESKTOP-KOPUCV6
+end
+
+section: options
+	relativeMouseMoves = false
+	screenSaverSync = true
+	win32KeepForeground = false
+	switchCorners = none 
+	switchCornerSize = 0
+end
+
