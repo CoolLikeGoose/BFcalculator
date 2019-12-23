@@ -84,3 +84,35 @@ section: options
 	switchCornerSize = 0
 end
 
+
+
+
+
+
+
+aK = 0; p = []; floor = []; x = 1; y = 1; wow = 0; exit = []
+
+M = int(input()) #Apartments
+N = int(input()) #Floors
+K = int(input()) #Windows
+
+while aK != K:      #Second 
+    p += input()
+    aK += int(p[-1])
+    
+for numN in range(N):           #every str
+    for numK in range(K):          # every char
+        floor += input()            #floor + char
+    
+    for apartment in range(M):
+        for apartWindow in range(int(p[apartment])):
+            if floor.pop()[0] == 0:
+                x += 1
+        if x == int(p[apartment]):
+            exit += str((N - numN - 1) * M + apartment)
+            
+    floor.clear()
+exit.sort()
+print(len(exit))
+for i in range(len(exit)):
+    print(exit[i])
