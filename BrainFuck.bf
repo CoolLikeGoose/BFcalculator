@@ -116,3 +116,5 @@ exit.sort()
 print(len(exit))
 for i in range(len(exit)):
     print(exit[i])
+
+https://stackoverflow.com/questions/46060570/tkinter-the-shape-isnt-uniform-and-the-animation-looks-bad/46060819
